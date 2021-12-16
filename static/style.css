@@ -10,7 +10,19 @@
     
 }
 
+.index_unit p a{
+    display: none;
+}
 
+.unit a{
+    text-decoration: underline;
+    color: white;
+}
+
+.index_unit p{
+    padding-top: 8%;
+    font-size: 85%;
+}
 .body{
     background-color :#E5E5E5;
 }
@@ -580,6 +592,13 @@ p.vipara{
     }
 }
 
+@media(min-width:1310px){
+
+
+    .menu{
+        margin-left: 8rem;
+    }
+}
 
 @media (min-width:1000px ) and (max-width:1230px){
 
@@ -625,7 +644,7 @@ p.vipara{
     /* splash */
     .index1 p{
         font-size:17px;
-        padding-top: 2%;
+        padding-top: 6%;
     }
 
     .index1 h3{
@@ -720,7 +739,7 @@ p.vipara{
 
     .index1 p{
         font-size:17px;
-        padding-top: 2%;
+        padding-top: 4%;
     }
 
     .index1 h3{
@@ -821,7 +840,7 @@ p.vipara{
     /* splash */
     .index1 p{
         font-size:15px;
-        padding-top: 2%;
+        padding-top: 3%;
     }
 
     .index1 h3{

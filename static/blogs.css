@@ -63,16 +63,21 @@
 .b_content1{
     padding: 2%;
     display: flex;
-    align-items: center;
     justify-content: center;
     font-family: sans-serif;
     background-color: #C4C4C4;
-    margin-left: 4%;
+    margin-left: 7%;
     margin-top: 0.5%;
     max-width: 65%;
     font-size: 150%;
+    width: 100%;
 }
 
+.b_content1 a{
+    color: black;
+    text-decoration: underline;
+    margin: 1%;
+}
 .a{
     font-size: 150%;
     padding: 2%;
@@ -89,6 +94,32 @@
 .image{
     margin-left:3%;
 }
+
+.image1 img{
+    width:40px;
+
+}
+
+@media(min-width:1200px){
+    .b_content1{
+        max-width: 54%;
+        margin-left: 12%;
+    }
+
+    .image1 img{
+        width:88%;
+    }
+}
+
+@media(max-width:1200px){
+
+
+    .image1 img{
+        display: none;
+    }
+}
+
+
 
 @media (min-width:1000px ) and (max-width:1230px){
     .out{
